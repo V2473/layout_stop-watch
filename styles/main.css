@@ -1,16 +1,3 @@
-body {
-  margin: 0; }
-
-.container {
-  width: 600px;
-  height: 600px;
-  position: absolute;
-  box-sizing: border-box;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%; }
-
 @-webkit-keyframes time {
   0% {
     transform: rotate(0deg); }
@@ -23,42 +10,47 @@ body {
   100% {
     transform: rotate(360deg); } }
 
-.seconds {
+.clock {
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  border-radius: 50%;
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  align-items: flex-end; }
+
+.clock__seconds {
   width: 10px;
   height: 300px;
-  border: solid 1px #5f98a8;
+  border: solid 1 #5f98a8;
   background-color: #5f98a8;
   border-radius: 10px;
   position: absolute;
-  box-sizing: border-box;
-  left: 295px;
   transform-origin: bottom center;
   -webkit-animation: time 60s linear infinite;
           animation: time 60s linear infinite; }
 
-.minutes {
+.clock__minutes {
   width: 12px;
   height: 200px;
-  border: solid 1px #c25d5d;
+  border: solid 1 #c25d5d;
   background-color: #c25d5d;
   border-radius: 12px;
   position: absolute;
-  box-sizing: border-box;
-  top: 100px;
-  left: 294px;
   transform-origin: bottom center;
   -webkit-animation: time 3600s linear infinite;
           animation: time 3600s linear infinite; }
 
-.base {
+.clock__base {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: #5f98a8;
-  position: absolute;
-  box-sizing: border-box;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%; }
+  position: relative;
+  top: 15px; }
 
 /*# sourceMappingURL=main.css.map */
