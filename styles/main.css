@@ -260,19 +260,19 @@
   align-items: flex-end; }
 
 .clock__seconds {
-  width: 10px;
-  height: 300px;
+  width: 1.7%;
+  height: 100%;
   border: solid 1 #5f98a8;
   background-color: #5f98a8;
-  border-radius: 10px;
+  border-radius: 10.2px;
   position: absolute;
   transform-origin: bottom center;
   -webkit-animation: time 60s cubic-bezier(0, 1.33, 0, 0.94) infinite;
           animation: time 60s cubic-bezier(0, 1.33, 0, 0.94) infinite; }
 
 .clock__minutes {
-  width: 12px;
-  height: 200px;
+  width: 2%;
+  height: 60%;
   border: solid 1 #c25d5d;
   background-color: #c25d5d;
   border-radius: 12px;
