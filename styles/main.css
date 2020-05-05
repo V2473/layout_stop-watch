@@ -1,248 +1,12 @@
 @-webkit-keyframes time {
   0% {
     transform: rotate(0deg); }
-  1.6667% {
-    transform: rotate(6deg); }
-  3.3334% {
-    transform: rotate(12deg); }
-  5.0001% {
-    transform: rotate(18deg); }
-  6.6668% {
-    transform: rotate(24deg); }
-  8.3335% {
-    transform: rotate(30deg); }
-  10.0002% {
-    transform: rotate(36deg); }
-  11.6669% {
-    transform: rotate(42deg); }
-  13.3336% {
-    transform: rotate(48deg); }
-  15.0003% {
-    transform: rotate(54deg); }
-  16.667% {
-    transform: rotate(60deg); }
-  18.3337% {
-    transform: rotate(66deg); }
-  20.0004% {
-    transform: rotate(72deg); }
-  21.6671% {
-    transform: rotate(78deg); }
-  23.3338% {
-    transform: rotate(84deg); }
-  25.0005% {
-    transform: rotate(90deg); }
-  26.6672% {
-    transform: rotate(96deg); }
-  28.3339% {
-    transform: rotate(102deg); }
-  30.0006% {
-    transform: rotate(108deg); }
-  31.6673% {
-    transform: rotate(114deg); }
-  33.334% {
-    transform: rotate(120deg); }
-  35.0007% {
-    transform: rotate(126deg); }
-  36.6674% {
-    transform: rotate(132deg); }
-  38.3341% {
-    transform: rotate(138deg); }
-  40.0008% {
-    transform: rotate(144deg); }
-  41.6675% {
-    transform: rotate(150deg); }
-  43.3342% {
-    transform: rotate(156deg); }
-  45.0009% {
-    transform: rotate(162deg); }
-  46.6676% {
-    transform: rotate(168deg); }
-  48.3343% {
-    transform: rotate(174deg); }
-  50.001% {
-    transform: rotate(180deg); }
-  51.6677% {
-    transform: rotate(186deg); }
-  53.3344% {
-    transform: rotate(192deg); }
-  55.0011% {
-    transform: rotate(198deg); }
-  56.6678% {
-    transform: rotate(204deg); }
-  58.3345% {
-    transform: rotate(210deg); }
-  60.0012% {
-    transform: rotate(216deg); }
-  61.6679% {
-    transform: rotate(222deg); }
-  63.3346% {
-    transform: rotate(228deg); }
-  65.0013% {
-    transform: rotate(234deg); }
-  66.668% {
-    transform: rotate(240deg); }
-  68.3347% {
-    transform: rotate(246deg); }
-  70.0014% {
-    transform: rotate(252deg); }
-  71.6681% {
-    transform: rotate(258deg); }
-  73.3348% {
-    transform: rotate(264deg); }
-  75.0015% {
-    transform: rotate(270deg); }
-  76.6682% {
-    transform: rotate(276deg); }
-  78.3349% {
-    transform: rotate(282deg); }
-  80.0016% {
-    transform: rotate(288deg); }
-  81.6683% {
-    transform: rotate(294deg); }
-  83.335% {
-    transform: rotate(300deg); }
-  85.0017% {
-    transform: rotate(306deg); }
-  86.6684% {
-    transform: rotate(312deg); }
-  88.3351% {
-    transform: rotate(318deg); }
-  90.0018% {
-    transform: rotate(324deg); }
-  91.6685% {
-    transform: rotate(330deg); }
-  93.3352% {
-    transform: rotate(336deg); }
-  95.0019% {
-    transform: rotate(342deg); }
-  96.6686% {
-    transform: rotate(348deg); }
-  98.3353% {
-    transform: rotate(354deg); }
   100% {
     transform: rotate(360deg); } }
 
 @keyframes time {
   0% {
     transform: rotate(0deg); }
-  1.6667% {
-    transform: rotate(6deg); }
-  3.3334% {
-    transform: rotate(12deg); }
-  5.0001% {
-    transform: rotate(18deg); }
-  6.6668% {
-    transform: rotate(24deg); }
-  8.3335% {
-    transform: rotate(30deg); }
-  10.0002% {
-    transform: rotate(36deg); }
-  11.6669% {
-    transform: rotate(42deg); }
-  13.3336% {
-    transform: rotate(48deg); }
-  15.0003% {
-    transform: rotate(54deg); }
-  16.667% {
-    transform: rotate(60deg); }
-  18.3337% {
-    transform: rotate(66deg); }
-  20.0004% {
-    transform: rotate(72deg); }
-  21.6671% {
-    transform: rotate(78deg); }
-  23.3338% {
-    transform: rotate(84deg); }
-  25.0005% {
-    transform: rotate(90deg); }
-  26.6672% {
-    transform: rotate(96deg); }
-  28.3339% {
-    transform: rotate(102deg); }
-  30.0006% {
-    transform: rotate(108deg); }
-  31.6673% {
-    transform: rotate(114deg); }
-  33.334% {
-    transform: rotate(120deg); }
-  35.0007% {
-    transform: rotate(126deg); }
-  36.6674% {
-    transform: rotate(132deg); }
-  38.3341% {
-    transform: rotate(138deg); }
-  40.0008% {
-    transform: rotate(144deg); }
-  41.6675% {
-    transform: rotate(150deg); }
-  43.3342% {
-    transform: rotate(156deg); }
-  45.0009% {
-    transform: rotate(162deg); }
-  46.6676% {
-    transform: rotate(168deg); }
-  48.3343% {
-    transform: rotate(174deg); }
-  50.001% {
-    transform: rotate(180deg); }
-  51.6677% {
-    transform: rotate(186deg); }
-  53.3344% {
-    transform: rotate(192deg); }
-  55.0011% {
-    transform: rotate(198deg); }
-  56.6678% {
-    transform: rotate(204deg); }
-  58.3345% {
-    transform: rotate(210deg); }
-  60.0012% {
-    transform: rotate(216deg); }
-  61.6679% {
-    transform: rotate(222deg); }
-  63.3346% {
-    transform: rotate(228deg); }
-  65.0013% {
-    transform: rotate(234deg); }
-  66.668% {
-    transform: rotate(240deg); }
-  68.3347% {
-    transform: rotate(246deg); }
-  70.0014% {
-    transform: rotate(252deg); }
-  71.6681% {
-    transform: rotate(258deg); }
-  73.3348% {
-    transform: rotate(264deg); }
-  75.0015% {
-    transform: rotate(270deg); }
-  76.6682% {
-    transform: rotate(276deg); }
-  78.3349% {
-    transform: rotate(282deg); }
-  80.0016% {
-    transform: rotate(288deg); }
-  81.6683% {
-    transform: rotate(294deg); }
-  83.335% {
-    transform: rotate(300deg); }
-  85.0017% {
-    transform: rotate(306deg); }
-  86.6684% {
-    transform: rotate(312deg); }
-  88.3351% {
-    transform: rotate(318deg); }
-  90.0018% {
-    transform: rotate(324deg); }
-  91.6685% {
-    transform: rotate(330deg); }
-  93.3352% {
-    transform: rotate(336deg); }
-  95.0019% {
-    transform: rotate(342deg); }
-  96.6686% {
-    transform: rotate(348deg); }
-  98.3353% {
-    transform: rotate(354deg); }
   100% {
     transform: rotate(360deg); } }
 
@@ -267,8 +31,8 @@
   border-radius: 10.2px;
   position: absolute;
   transform-origin: bottom center;
-  -webkit-animation: time 60s cubic-bezier(0, 1.33, 0, 0.94) infinite;
-          animation: time 60s cubic-bezier(0, 1.33, 0, 0.94) infinite; }
+  -webkit-animation: time 60s steps(60) infinite;
+          animation: time 60s steps(60) infinite; }
 
 .clock__minutes {
   width: 2%;
@@ -278,10 +42,8 @@
   border-radius: 12px;
   position: absolute;
   transform-origin: bottom center;
-  -webkit-animation: time 3600s cubic-bezier(0, 1.33, 0, 0.94) infinite;
-          animation: time 3600s cubic-bezier(0, 1.33, 0, 0.94) infinite;
-  -webkit-animation: time 3600s linear infinite;
-          animation: time 3600s linear infinite; }
+  -webkit-animation: time 3600s steps(60) infinite;
+          animation: time 3600s steps(60) infinite; }
 
 .clock__base {
   width: 30px;
