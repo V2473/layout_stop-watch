@@ -279,7 +279,9 @@
   position: absolute;
   transform-origin: bottom center;
   -webkit-animation: time 3600s cubic-bezier(0, 1.33, 0, 0.94) infinite;
-          animation: time 3600s cubic-bezier(0, 1.33, 0, 0.94) infinite; }
+          animation: time 3600s cubic-bezier(0, 1.33, 0, 0.94) infinite;
+  -webkit-animation: time 3600s linear infinite;
+          animation: time 3600s linear infinite; }
 
 .clock__base {
   width: 30px;
